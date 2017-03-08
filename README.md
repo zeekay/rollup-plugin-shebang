@@ -1,5 +1,7 @@
 # rollup-plugin-shebang
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zeekay/rollup-plugin-shebang.svg)](https://greenkeeper.io/)
+
 Rollup.js plugin which adds a unix-style shebang.
 
 ## Installation
