@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-shebang",
   "description": "A Rollup.js plugin to pre-pend a unix-style shebang on an executable file",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Zach Kelling",
   "bugs": {
     "url": "https://github.com/zeekay/rollup-plugin-shebang/issues"
