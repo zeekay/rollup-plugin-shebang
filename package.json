@@ -1,0 +1,44 @@
+{
+  "name": "rollup-plugin-shebang",
+  "description": "A Rollup.js plugin to pre-pend a unix-style shebang on an executable file",
+  "version": "0.1.0",
+  "author": "Zach Kelling",
+  "bugs": {
+    "url": "https://github.com/zeekay/rollup-plugin-shebang/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cake-publish": "0.1.5",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.9",
+    "coffee-script": "1.12.4",
+    "handroll": "0.2.11",
+    "shortcake": "1.2.5"
+  },
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://github.com/zeekay/rollup-plugin-shebang",
+  "jsnext:main": "dist/rollup-plugin-shebang.es.js",
+  "module": "dist/rollup-plugin-shebang.es.js",
+  "keywords": [
+    "css",
+    "css-modules",
+    "rollup-plugin"
+  ],
+  "license": "MIT",
+  "main": "dist/rollup-plugin-shebang.cjs.js",
+  "peerDependencies": {
+    "rollup": ">=0.34.1 <1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeekay/rollup-plugin-shebang.git"
+  },
+  "scripts": {
+    "build": "cake build",
+    "prepublish": "npm run build",
+    "pretest": "npm run build",
+    "test": "mocha"
+  }
+}
