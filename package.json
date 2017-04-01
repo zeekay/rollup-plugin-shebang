@@ -6,11 +6,12 @@
   "bugs": {
     "url": "https://github.com/zeekay/rollup-plugin-shebang/issues"
   },
-  "main": "dist/rollup-plugin-shebang.js",
-  "jsnext:main": "dist/rollup-plugin-shebang.mjs",
-  "module": "dist/rollup-plugin-shebang.mjs",
+  "main": "lib/rollup-plugin-shebang.js",
+  "jsnext:main": "lib/rollup-plugin-shebang.mjs",
+  "module": "lib/rollup-plugin-shebang.mjs",
   "files": [
-    "dist/"
+    "src/",
+    "lib/"
   ],
   "homepage": "https://github.com/zeekay/rollup-plugin-shebang",
   "keywords": [
@@ -28,11 +29,11 @@
   },
   "devDependencies": {
     "cake-bundle": "0.2.20",
+    "cake-outdated": "0.1.18",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
     "coffee-script": "1.12.4",
-    "handroll": "0.2.11",
     "shortcake": "1.2.5"
   },
   "scripts": {
