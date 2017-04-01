@@ -27,6 +27,7 @@
     "url": "https://github.com/zeekay/rollup-plugin-shebang.git"
   },
   "devDependencies": {
+    "cake-bundle": "0.2.20",
     "cake-publish": "0.1.5",
     "cake-test": "0.1.0",
     "cake-version": "0.1.9",
