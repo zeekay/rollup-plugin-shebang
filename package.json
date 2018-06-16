@@ -30,11 +30,11 @@
     "url": "https://github.com/zeekay/rollup-plugin-shebang.git"
   },
   "devDependencies": {
-    "sake-bundle": "0.2.21",
-    "sake-outdated": "0.1.18",
+    "sake-bundle": "^0.6.14",
+    "sake-outdated": "^0.3.0",
     "sake-publish": "0.1.10",
-    "sake-test": "0.1.0",
-    "sake-version": "0.1.15"
+    "sake-test": "^0.2.1",
+    "sake-version": "^0.1.19"
   },
   "scripts": {
     "build": "sake build",
