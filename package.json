@@ -7,17 +7,19 @@
     "url": "https://github.com/zeekay/rollup-plugin-shebang/issues"
   },
   "main": "lib/rollup-plugin-shebang.js",
-  "jsnext:main": "lib/rollup-plugin-shebang.mjs",
-  "module": "lib/rollup-plugin-shebang.mjs",
+  "jsnext:main": "lib/rollup-plugin-shebang.es.js",
+  "module": "lib/rollup-plugin-shebang.es.js",
   "files": [
     "src/",
     "lib/"
   ],
   "homepage": "https://github.com/zeekay/rollup-plugin-shebang",
   "keywords": [
-    "unix",
+    "#!",
+    "executable",
+    "rollup",
     "shebang",
-    "#!"
+    "unix"
   ],
   "license": "MIT",
   "peerDependencies": {
@@ -28,18 +30,16 @@
     "url": "https://github.com/zeekay/rollup-plugin-shebang.git"
   },
   "devDependencies": {
-    "cake-bundle": "0.2.21",
-    "cake-outdated": "0.1.18",
-    "cake-publish": "0.1.10",
-    "cake-test": "0.1.0",
-    "cake-version": "0.1.15",
-    "coffee-script": "1.12.4",
-    "shortcake": "1.2.8"
+    "sake-bundle": "0.2.21",
+    "sake-outdated": "0.1.18",
+    "sake-publish": "0.1.10",
+    "sake-test": "0.1.0",
+    "sake-version": "0.1.15"
   },
   "scripts": {
-    "build": "cake build",
-    "prepublish": "npm run build",
-    "pretest": "npm run build",
-    "test": "mocha"
+    "build": "sake build",
+    "prepublishOnly": "sake build",
+    "pretest": "sake bulid",
+    "test": "sake-test"
   }
 }
