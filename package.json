@@ -32,7 +32,7 @@
   "devDependencies": {
     "sake-bundle": "^0.6.14",
     "sake-outdated": "^0.3.0",
-    "sake-publish": "0.1.10",
+    "sake-publish": "0.1.17",
     "sake-test": "^0.2.1",
     "sake-version": "^0.1.19"
   },
